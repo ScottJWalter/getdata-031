@@ -40,8 +40,7 @@ The script `run_analysis.R` performs the following:
 
 - If a 'data' subdirectory doesn't exists below the working directory:
 	- The 'data' subdirectory is created
-	- The data set is downloaded from 
-		https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+	- The data set is downloaded 
 - Loads the traning and test sets for the Activity, Subject, and Features variables.
 - Merges the test and training data for each variable into single data frames.
 - Performs some name clean up on the Activity and Features variables
