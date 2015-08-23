@@ -27,7 +27,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 - `train/y_train.txt` -- Training labels.
 - `test/X_test.txt` -- Test set.
 - `test/y_test.txt` -- Test labels.
-- `test/subject_train.txt` -- Identifies the subject who performed the activity for each window sample (a numeric in the ramge of 1:30)
+- `test/subject_train.txt` -- Identifies the subject who performed the activity for each window sample (a numeric in the range of 1:30)
 - `train/subject_train.txt` -- Same as "test/subject_train.txt" but for training 
 
 
@@ -54,4 +54,4 @@ The script `run_analysis.R` performs the following:
   
 ## Execution
 
-To run the script, simply load it:  souce("run_analysis.R")
+To run the script, simply load it:  `souce("run_analysis.R")`
